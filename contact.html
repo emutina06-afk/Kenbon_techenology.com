@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Kenbon Computers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+    <h2>Contact Us</h2>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">ℹ️ About Us</a>
+    <a href="model.html">💻 Models</a>
+    <a href="detail.html">📑 Detail Information</a>
+    <a href="contact.html">📞 Contact Us</a>
+  </div>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+    })();
+  </script>
+  <header>
+    <h2>Kenbon tech Computers </h2>
+    <h3>if you want to contact us we get our address below</h3>
+  </header>
+
+  <!-- PC Image Showcase -->
+  <section class="pc-showcase">
+    <img src="MAC.jpg" alt="Laptop 1">
+    <img src="hp pv.jpg" alt="Laptop 2">
+    <img src="HHH.jpg" alt="Laptop 3">
+  </section>
+
+  <!-- Contact Info -->
+  <section class="contact-info">
+    <div class="info-card">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Phone</h3>
+      <p><a href="tel:+251912345678">+251 944 344 045</a></p>
+      <p><a href="tel:+251912345678">+251 909 151 616</a></p>
+    </div>
+    <div class="info-card">
+      <i class="fa-solid fa-envelope"></i>
+      <h3>Email</h3>
+      <p><a href="mailto:info@kenbon.com">info@kenbon.com</a></p>
+    </div>
+    <div class="info-card">
+      <i class="fa-solid fa-location-dot"></i>
+      <h3>Main Address</h3>
+      <p><a href="https://maps.google.com/?q=Mexico+KK2+Addis+Ababa" target="_blank">
+         Mexico KK2, Addis Ababa
+      </a></p>
+      <p><a href="https://maps.google.com/?q=bethelhem Plaza+Addis+Ababa" target="_blank">
+         Bethelhem Plaza, Addis Ababa
+      </a></p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <h2>Send us a Message</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Follow Us</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=61573211188783" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/knbon_tech?utm_source=qr&igsh=NnY5anUxM21o0G9s" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://t.me/kenbontch" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://tiktok.com/@kenbon_tech" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy & legacy</a> |  
+      <a href="news.html">News</a>
+    </div>
+
+    <p>© 2025 Kenbon Computers. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  
